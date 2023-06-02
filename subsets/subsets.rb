@@ -31,6 +31,14 @@ def find_pairs(nums)
   pairs
 end
 
+##### Alt Solution 1
+
+# def find_pairs(arr)
+#   arr.combination(2).to_a
+# end
+
+##### Alt Solution 2
+
 # def find_pairs(nums)
 #   pairs = []
 
@@ -43,8 +51,8 @@ end
 #   pairs
 # end
 
-# nums1 = [1, 2, 3, 4]
-# nums2 = [1, 2, 3, 4, 5, 6]
+nums1 = [1, 2, 3, 4]
+nums2 = [1, 2, 3, 4, 5, 6]
 
-# p find_pairs(nums1)
-# p find_pairs(nums2)
+p find_pairs(nums1)
+p find_pairs(nums2)
